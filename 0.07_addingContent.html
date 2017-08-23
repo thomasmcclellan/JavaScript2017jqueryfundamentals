@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<h1>Adding Content with jQuery</h1>
+		<h3>Append</h3>
+		<div id="append-example" style="height: 100px; width: 90%;
+		background-color: #ddd">
+			<p>You can add content to the bottom of an element with the .append method!</p>
+		</div>
+
+		<hr>
+
+		<h3>Prepend</h3>
+		<div id="prepend-example" style="height: 100px; width: 90%; background-color: #ddd">
+			<p>You can add content to the top of an element with the .prepend method!</p>
+		</div>
+
+		<hr>
+		
+		<h3>Before</h3>
+		<p><i>This time we will target the paragraph and insert the content before it.</i></p>
+		<div style="height: 100px; width: 90%; background-color: #ddd">
+			<p id="before-example">You can add before an element with the .before method!</p>
+		</div>
+
+		<hr>
+		
+		<h3>After</h3>
+		<p><i>This time we will target the paragraph and insert the content after it.</i></p>
+		<div style="height: 100px; width: 90%; background-color: #ddd">
+			<p id="after-example">You can add after an element with the .after method!</p>
+		</div>
+
+		<hr>
+
+		<h3>HTML</h3>
+		<p><i>This time we will replace the div html conent (paragraph) with the new content using the .html method.</i></p>
+		<div style="height: 100px; width: 90%; background-color: #ddd">
+			<p id="html-example">You can replace me with the .html method!</p>
+		</div>
+
+		<hr>
+
+		<h3>Text</h3>
+		<p><i>This time we will replace the paragraph with the new content using the .text method. <br>
+		<b>(Notice that we'll need to remove the html tags from our content variable)</b></i></p>
+		<div style="height: 100px; width: 90%; background-color: #ddd">
+			<p id="text-example">You can replace me with the .text method!</p>
+		</div>
+
+
+
+		<script src="./0.07_addingContent.js"></script>
+	</body>
+</html>
